@@ -17,7 +17,7 @@ public class MyReflect {
 	 */
 	@Before
 	public void init() throws Exception {
-		className = "Person";
+		className = "reflect.Person";
 		personClass = Class.forName(className);
 	}
 	/**
